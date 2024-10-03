@@ -1,0 +1,165 @@
+.app-frame{
+  margin: auto;
+  width: 1200px;
+  border: 5px solid black;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.title-box{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.title-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid 1px gray;
+  border-radius: 15px;
+  width: 350px;
+  margin: auto;
+  font-size: 30px;
+  height: 60px;
+}
+
+.book-input{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.book-input p{
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.name-input{
+  width: 200px;
+  height: 30px;
+  border: solid 1px gray;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.author-input{
+  width: 150px;
+  height: 30px;
+  border: solid 1px gray;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.year-input{
+  width: 100px;
+  height: 30px;
+  border: solid 1px gray;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.quantity-input{
+  width: 80px;
+  height: 30px;
+  border: solid 1px gray;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.price-input{
+  width: 100px;
+  height: 30px;
+  border: solid 1px gray;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.book-input button{
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 100px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 56px;
+  transition: background-color 0.25s;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.book-input button:hover{
+  background-color: rgb(199, 199, 199);
+  cursor: pointer;
+}
+
+.book-list h2{
+  color: gray;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.book-list table{
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-collapse: collapse;
+}
+
+.book-list tr{
+  display: grid;
+  grid-template-columns: 200px 130px 80px 100px 80px;
+  border-radius: 8px;
+}
+
+.book-list td{
+  border-collapse: collapse;
+  border-bottom: 1px solid gray;
+}
+
+.book-list th{
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+
+.book-list th, .book-list td {
+  border-left: 2px solid gray;
+}
+
+.book-list th:first-child, .book-list td:first-child {
+  border-left: none;
+}
+
+.pagination{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button{
+  background-color: transparent;
+  transition: background-color 0.25s;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+
+.pagination button.active{
+  background-color: rgb(199, 199, 199);
+}
+
+.pagination button:hover{
+  background-color: rgb(199, 199, 199);
+}
